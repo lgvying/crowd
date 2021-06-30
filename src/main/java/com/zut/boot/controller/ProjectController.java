@@ -94,7 +94,7 @@ public class ProjectController {
     public ResponseVo<Page<Project>> getByToMoney(@PathVariable("page")Integer page,
                                                   @PathVariable("size")Integer size){
         Page<Project> byToMoney = projectService.findByToMoney(page, size);
-        return new ResponseVo<>("根据预期钱数排序分页获取项目成功",200,byToMoney);
+        return new ResponseVo<>("根据目标钱数排序分页获取项目成功",200,byToMoney);
 
     }
 
