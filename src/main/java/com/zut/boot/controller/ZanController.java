@@ -37,7 +37,7 @@ public class ZanController {
     }
 
     /**
-     * 根据用户id和项目id查看点在情况
+     * 根据用户id和项目id查看点赞情况
      * @param pid
      * @param uid
      * @return
